@@ -4,7 +4,7 @@ import { sip } from "@/data/profile";
 const progressLog = [
   {
     date: "2025-03-06",
-    note: `SIP408 rebuild in progress. The working MindScribe prototype was developed locally using a self-hosted LLM and lost its final integrated state due to an environment failure with no remote backup — a direct consequence of running a heavy local AI stack that couldn't be pushed online mid-development. The system existed across multiple build stages (profile engine, adaptive Q&A, persona logic, React/Vite frontend) and is now being reconstructed from component snapshots and documented architecture. Health complications over the past several months contributed to the gap in progress. Reconstruction is underway with a cleaner separation between the API layer and frontend so the project can be hosted and backed up properly going forward. Health monitoring features (stress indicators, session pacing) are being incorporated into the new build as an expansion of the original scope.`,
+    note: `MindScribe was built and running locally. The problem was it lived entirely on my machine, powered by an AI model too large to push online while actively developing it. When the environment broke, there was no remote backup to fall back on. The project existed in pieces across different build stages and never got a clean final save. The past few months were personally difficult and that slowed things down more than I wanted. I'm back at it now, rebuilding from the pieces I have with a smarter setup so it can actually live online and stay backed up. I'm also expanding the original scope to include health-aware features like session pacing and stress indicators, which ties into some of what I went through.`,
   },
 ];
 
