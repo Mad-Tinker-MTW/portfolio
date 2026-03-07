@@ -14,7 +14,7 @@ export default function SIPLayout() {
   useTitle(`SIP: ${branding.productShort}`);
 
   const tabs: Tab[] = [
-    { to: "overview",  label: "Overview" },
+    { to: "overview",  label: "Overview", badge: "Updated" },
     { to: "visuals",   label: "Visuals & Docs" },
     { to: "prior-art", label: "Prior Art" },
 	{ to: "eval",      label: "Eval & Goals", badge: "NEW" },
