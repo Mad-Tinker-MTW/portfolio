@@ -3,7 +3,11 @@ import { sip } from "@/data/profile";
 // SIP408 progress log — add new entries at the top, keep dates visible
 const progressLog = [
   {
-    date: "2025-03-06",
+    date: "2026-05-12",
+    note: `Project nearly complete. The initial vision was for a complete end-to-end system, from profiler to final physical output, but the faculty scaled back the scope during SIP311. Despite the revised scope, I went further and also got G-code generation up and running. The digital pipeline is now fully functional, encompassing the profiler, adaptive Q&A, sketch brief, Replicate image generation, and G-code. Still need to tackle the physical aspects now: rebuilding the XY plotter, upgrading and flashing the plotter board, and fabricating the pen and paper holders. On the software front, the sole outstanding issue is refining the Replicate master prompt for better output consistency. Ready for SME review.`
+  },
+  {
+    date: "2026-03-06",
     note: `MindScribe was built and running locally. The problem was it lived entirely on my machine, powered by an AI model too large to push online while actively developing it. When the environment broke, there was no remote backup to fall back on. The project existed in pieces across different build stages and never got a clean final save. The past few months were personally difficult and that slowed things down more than I wanted. I'm back at it now, rebuilding from the pieces I have with a smarter setup so it can actually live online and stay backed up. I'm also expanding the original scope to include health-aware features like session pacing and stress indicators, which ties into some of what I went through.`,
   },
 ];
