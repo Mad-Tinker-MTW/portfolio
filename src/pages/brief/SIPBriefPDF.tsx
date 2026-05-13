@@ -27,6 +27,9 @@ export default function SIPBriefPDF() {
           click here
         </a>.
       </p>
+      <p className="text-sm text-neutral-600 mt-2">
+        This is the original SIP311 brief. Current SIP408 content and progress updates are on the Overview, Background, and Project tabs.
+      </p>
     </div>
   );
 }
