@@ -2,6 +2,9 @@
 export default function SIPBriefBackground() {
   return (
     <div className="space-y-3">
+      <div className="rounded-lg border border-yellow-400 bg-yellow-50 px-4 py-3 text-sm text-yellow-800">
+        <strong>SIP408 Update — 2026-05-12:</strong> Added explanation of the two lies and one truth intake method and how it drives the profiling session.
+      </div>
       <h2 className="text-2xl font-semibold text-neutral-900">Background</h2>
       <p className="text-neutral-800">
         Ideas die because the creator can't verbalize the concept, or draw it faithfully, or access the right tools.

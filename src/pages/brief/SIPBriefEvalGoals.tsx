@@ -4,6 +4,9 @@ import { evalChecklist, goals } from "@/data/sipEvalGoals";
 export default function SIPBriefEvalGoals() {
   return (
     <div className="space-y-8">
+      <div className="rounded-lg border border-yellow-400 bg-yellow-50 px-4 py-3 text-sm text-yellow-800">
+        <strong>SIP408 Update — 2026-05-12:</strong> Criteria and goals revised to reflect actual build. Original plan used NLP for profiling. Final implementation uses a custom cognitive lexicon scorer driven by Claude API. Two lies and one truth added as the profiling entry point. Goals updated from future tense planning language to completed work.
+      </div>
       <section>
         <h2 className="text-2xl font-semibold text-neutral-900">Evaluation Criteria — Checklist</h2>
         <ul className="mt-3 space-y-2 text-neutral-800">
@@ -15,7 +18,6 @@ export default function SIPBriefEvalGoals() {
           ))}
         </ul>
       </section>
-
       <section>
         <h2 className="text-2xl font-semibold text-neutral-900">Goals & Tasks — Dependency Plan</h2>
         <div className="mt-4 space-y-6">

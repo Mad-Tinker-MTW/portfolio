@@ -2,6 +2,9 @@
 export default function SIPBriefProject() {
   return (
     <>
+      <div className="rounded-lg border border-yellow-400 bg-yellow-50 px-4 py-3 text-sm text-yellow-800 mb-4">
+        <strong>SIP408 Update — 2026-05-12:</strong> Pipeline updated to reflect completed build. G-code output and robotic plotting are no longer future stages, both are functional.
+      </div>
       <h2 className="text-2xl font-semibold">Project Description</h2>
       <ul className="list-disc pl-6 space-y-2">
         <li>

@@ -12,16 +12,16 @@ const asset = (p: string) => `${import.meta.env.BASE_URL}assets/sip/${p}`;
 export default function SIPBriefLayout() {
 	type Tab = { to: string; label: string; badge?: "NEW" | "Updated" };
 	const tabs: Tab[] = [
-    { to: "title",       label: "Title & Overview" },
-    { to: "field",       label: "Technical Field" },
-    { to: "background",  label: "Background" },
-    { to: "figures",     label: "Prototype Images" },
-    { to: "project",     label: "Project Description" },
-    { to: "innovation",  label: "Innovation Claim" },
-    { to: "scenarios",   label: "Usage Scenarios" },
-	{ to: "eval-goals", label: "Eval & Goals", badge: "NEW" },
-	{ to: "pdf",        label: "Brief PDF",    badge: "Updated" },
-   ];
+  { to: "title",       label: "Title & Overview" },
+  { to: "field",       label: "Technical Field" },
+  { to: "background",  label: "Background",          badge: "Updated" },
+  { to: "figures",     label: "Prototype Images" },
+  { to: "project",     label: "Project Description",  badge: "Updated" },
+  { to: "innovation",  label: "Innovation Claim" },
+  { to: "scenarios",   label: "Usage Scenarios" },
+  { to: "eval-goals",  label: "Eval & Goals",         badge: "Updated" },
+  { to: "pdf",         label: "Brief PDF",             badge: "Updated" },
+];
 
   return (
     <div className="grid gap-6 md:grid-cols-[220px,1fr]">
